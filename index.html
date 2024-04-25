@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integração Java Script com HTML</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div class="container">
+         <h1>HTML + JavaScript</h1>
+         <h2>Preencha o campo A e B.</h2>
+         <h3>O campo B não pode ser menor que o A.</h2>
+            <form id="main-form">
+             <input id="campo-a" type="number" required placeholder="Campo A">
+             <input id="campo-b" type="number" required placeholder="Campo B">
+             <button type="submit">Executar</button>
+          </form>
+    </div>
+
+    <div class="messages">
+    <p class="mensagem-errado"></p>
+    <p class="mensagem-certo"></p>
+    </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
