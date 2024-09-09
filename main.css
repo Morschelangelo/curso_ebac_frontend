@@ -1,0 +1,28 @@
+
+body {
+    background-image: url(https://wallpaper.dog/large/976117.jpg);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    border-radius: 20px;
+    background-color: rgba(121, 252, 219, 0.80); 
+    padding: 16px;
+    display:block;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+}
+
+input[type=text], input[type=email], input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
